@@ -40,4 +40,10 @@ document.getElementById('yesBtn').addEventListener('click', function() {
         <h1>Thank you mama for accepting!</h1>
         <p>I love you so much! ❤️</p>
     `;
+  
+  // Notification action: Email notification (opens email app)
+  window.location.href = "mailto:akposj423@gmail.com?subject=She Said Yes!&body=Hey, she accepted the proposal! Time to celebrate. ❤️";
+  
+  // Option 2: WhatsApp notification (uncomment if preferred)
+   window.open("https://wa.me/09072210059?text=She said Yes! Proposal successful. ❤️", "_blank");
 });
