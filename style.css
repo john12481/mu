@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 0;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.images img {
+    max-width: 150px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+}
+h1 {
+    color: #d63384;
+    font-size: 2em;
+}
+.buttons {
+    margin-top: 20px;
+}
+button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+#yesBtn {
+    background-color: #28a745;
+    color: white;
+    transform: scale(1); /* Starts at normal size */
+}
+#noBtn {
+    background-color: #dc3545;
+    color: white;
+}
+#message {
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #333;
+}
+@media (max-width: 600px) {
+    .images img {
+        max-width: 100px;
+    }
+    button {
+        padding: 10px 20px;
+        font-size: 1em;
+    }
+}
